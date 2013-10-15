@@ -1,0 +1,25 @@
+body {
+	text-align: center;
+}
+
+header {
+	display: none;
+}
+
+form input#vote_id {
+	width: 100%;
+	text-align:  center;
+}
+
+div.canidates {
+	border: solid 1px #C0C0C0;
+}
+
+div.canidates button {
+
+}
+
+footer {
+	margin: 1em;
+	display: none;
+}
