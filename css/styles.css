@@ -6,16 +6,25 @@ header {
 	display: none;
 }
 
-form input#vote_id {
+form input {
 	width: 100%;
 	text-align:  center;
 }
 
-div.canidates {
-	border: solid 1px #C0C0C0;
+div.canidate {
+	width: 96%;
+	margin: auto;
+	padding: 1em;
+	margin-bottom: 1em;
+	border: solid 1px #000000;
+	background-color: #C0C0C0;
 }
 
-div.canidates button {
+div.canidate img {
+	width: 60%;
+}
+
+div.canidate button {
 
 }
 
