@@ -4,7 +4,7 @@ $(document).ready(function() {
 					e.preventDefault();
 					//var id = document.getElementById('vote').value;
 					$.ajax({
-						data: {vote: 'b'},
+						data: {vote: 'Bugs'},
 						type: 'post',
 						url: '../php/vote.php',
 						success: function(responseData) {
@@ -24,7 +24,7 @@ $(document).ready(function() {
 					e.preventDefault();
 					//var id = document.getElementById('vote').value;
 					$.ajax({
-						data: {vote: 'd'},
+						data: {vote: 'Daffy'},
 						type: 'post',
 						url: '../php/vote.php',
 						success: function(responseData) {
@@ -44,7 +44,7 @@ $(document).ready(function() {
 					e.preventDefault();
 					//var id = document.getElementById('vote').value;
 					$.ajax({
-						data: {vote: 'f'},
+						data: {vote: 'Foghorn'},
 						type: 'post',
 						url: '../php/vote.php',
 						success: function(responseData) {
@@ -64,7 +64,7 @@ $(document).ready(function() {
 					e.preventDefault();
 					//var id = document.getElementById('vote').value;
 					$.ajax({
-						data: {vote: 'g'},
+						data: {vote: 'Gossamer'},
 						type: 'post',
 						url: '../php/vote.php',
 						success: function(responseData) {

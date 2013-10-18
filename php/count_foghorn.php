@@ -2,7 +2,7 @@
 
 require_once ('db_connect.php');
 
-$sql="SELECT * FROM Persons WHERE vote='f'";
+$sql="SELECT * FROM Persons WHERE vote='Foghorn'";
 
 if ($result=mysqli_query($con,$sql))
   {

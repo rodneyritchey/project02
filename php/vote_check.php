@@ -13,7 +13,7 @@
 while($row = mysqli_fetch_array($result))
   {
    echo "<h1>Thank You for voting, Voter Number " .$_COOKIE['user']. "!</h1>";
-   echo "<h1>You voted for Candidate " .$row['vote']. "!</h1>";
+   echo "<h1>You voted for " .$row['vote']. "!</h1>";
    
   }
  ?>
