@@ -3,8 +3,8 @@
 //Model function to add a vote to a database field
 require_once ('db_connect.php');
 
-$id = 31; //cookie data
-$vote = 'y'; //$_POST["vote"]
+$id = $_COOKIE['user'];
+$vote = $_POST["vote"];
 
 $sql = "UPDATE Persons SET vote='$vote' WHERE vote_id=$id";
 

@@ -10,8 +10,8 @@ $(document).ready(function() {
 						type: 'post',
 						url: '../php/register.php',
 						success: function(responseData) {
-							window.location = 'canidates.html';
-							$('body').empty().html(responseData);
+							window.location = 'candidates.php';
+							//$('body').empty().html(responseData);
 							
 						},
 						error: function(responseData) {
@@ -20,22 +20,3 @@ $(document).ready(function() {
 					});
 				});
 			});
-
-//Ajax call for vote.php
-/*$(document).ready(function() {
-				$('form').submit(function(e) {
-					e.preventDefault();
-					var id = document.getElementById('vote').value;
-					$.ajax({
-						data: {name: name},
-						type: 'post',
-						url: '../php/vote.php',
-						success: function(responseData) {
-							$('#response').empty().html(responseData);
-						},
-						error: function(responseData) {
-							console.log('the vote.php ajax call failed');
-						}
-					});
-				});
-			});*/

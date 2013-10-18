@@ -6,9 +6,50 @@ header {
 	display: none;
 }
 
-form input {
-	width: 100%;
+div.banner {
+	margin-top: -4em;
+	margin-bottom: -1.5em;
+}
+
+div#result_ban {
+	margin-top: 0em;
+}
+
+div#can_ban {
+	margin-top: 0em;
+}
+
+div#thank_ban {
+	margin-top: 0em;
+}
+
+div.banner img {
+	width: 85%;
+}
+
+form#register input {
+	width: 80%;
 	text-align:  center;
+	color: #A0A0A0;
+	box-shadow: inset 0.125em 0.125em 0.125em 0.125em #A0A0A0;
+}
+
+
+
+div.int_page {
+	background-color: #C0C0C0;
+}
+
+div#response {
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+}
+
+span.greet {
+	margin-bottom: 1em;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #6666FF;
 }
 
 div.canidate {
@@ -17,18 +58,34 @@ div.canidate {
 	padding: 1em;
 	margin-bottom: 1em;
 	border: solid 1px #000000;
-	background-color: #C0C0C0;
+	background-color: #F0F0F0;
+	border-radius: 0.5em;
+	box-shadow: 0.25em 0.25em 0.25em #888888;
+	
 }
 
 div.canidate img {
 	width: 60%;
 }
 
+
 div.canidate button {
 
 }
 
+div#vote_results img {
+	width: 100%;
+}
+
+div.result_can {
+	width: 45%;
+	margin: auto;
+	margin-bottom: 1em;
+	border: solid 1px #000000;
+	border-radius: 0.5em 0.5em 0.5em 0.5em;
+	box-shadow: 0.25em 0.25em 0.25em #888888;
+	background-color: #F0F0F0;
+}
+
 footer {
-	margin: 1em;
-	display: none;
 }
