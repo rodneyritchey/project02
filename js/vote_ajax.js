@@ -6,7 +6,7 @@ $(document).ready(function() {
 					$.ajax({
 						data: {vote: 'Bugs'},
 						type: 'post',
-						url: '../php/vote.php',
+						url: 'php/vote.php',
 						success: function(responseData) {
 							window.location = 'thank_you.php';
 							//$('#response2').empty().html(responseData);
@@ -26,7 +26,7 @@ $(document).ready(function() {
 					$.ajax({
 						data: {vote: 'Daffy'},
 						type: 'post',
-						url: '../php/vote.php',
+						url: 'php/vote.php',
 						success: function(responseData) {
 							window.location = 'thank_you.php';
 							//$('#response2').empty().html(responseData);
@@ -46,7 +46,7 @@ $(document).ready(function() {
 					$.ajax({
 						data: {vote: 'Foghorn'},
 						type: 'post',
-						url: '../php/vote.php',
+						url: 'php/vote.php',
 						success: function(responseData) {
 							window.location = 'thank_you.php';
 							//$('#response2').empty().html(responseData);
@@ -66,7 +66,7 @@ $(document).ready(function() {
 					$.ajax({
 						data: {vote: 'Gossamer'},
 						type: 'post',
-						url: '../php/vote.php',
+						url: 'php/vote.php',
 						success: function(responseData) {
 							window.location = 'thank_you.php';
 							//$('#response2').empty().html(responseData);

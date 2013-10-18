@@ -8,7 +8,7 @@ $(document).ready(function() {
 					$.ajax({
 						data: {firstname: firstname, lastname: lastname, vote_id: vote_id},
 						type: 'post',
-						url: '../php/register.php',
+						url: 'php/register.php',
 						success: function(responseData) {
 							window.location = 'candidates.php';
 							//$('body').empty().html(responseData);

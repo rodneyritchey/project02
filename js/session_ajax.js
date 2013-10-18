@@ -2,7 +2,7 @@ $(document).ready(function() {
 				$.ajax({
 					data: 'null',
 					type: 'get',
-					url: '../php/session_check.php',
+					url: 'php/session_check.php',
 					success: function(responseData) {
 						$('#greet').empty().html(responseData);
 					},
